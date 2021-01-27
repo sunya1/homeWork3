@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/listStudents">
+    <fragment
+        android:id="@+id/listStudents"
+        android:name="com.example.homework3.ListStudents"
+        android:label="ListStudents" >
+        <action
+            android:id="@+id/action_listStudents_to_studInformation"
+            app:destination="@id/studInformation" />
+    </fragment>
+    <fragment
+        android:id="@+id/studInformation"
+        android:name="com.example.homework3.StudInformation"
+        android:label="StudInformation" />
+</navigation>

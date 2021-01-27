@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">homeWork3</string>
+    <string name="name">Name</string>
+    <string name="add">ADD</string>
+    <string name="name_of_stud">Name:</string>
+    <string name="id_stud">TextView</string>
+    <string name="id">ID:</string>
+    <string name="surname">Surname:</string>
+
+    <string name="todo">TODO</string>
+    <string name="delete">Delete</string>
+</resources>
